@@ -5,14 +5,14 @@ function Home() {
     <section className='relative h-screen  bg-center bg-[url("https://www.rammaheshwari.com/assets/svg/common-bg.svg")] bg-no-repeat flex justify-center items-center  text-center'>
              <div className='absolute top-1/2 left-0  px-2 py-2 bg-white -translate-y-[50%] shadow rounded-r-lg max-lg:hidden'>
                 <div className='flex flex-col gap-3'>
-                    <button className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </button>
-                    <button className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-github" aria-hidden="true"></i>
-                    </button>
-                    <button className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-instagram" aria-hidden="true"></i>
-                    </button>
-                    <button className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-youtube-play" aria-hidden="true"></i>
-                    </button>
+                    <a className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href='https://www.github.com/SOms3Piol' className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a className='h-[50px] w-[50px] hover:bg-slate-300 rounded-lg text-3xl transition ease-in'><i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
                 </div>
                
              </div>

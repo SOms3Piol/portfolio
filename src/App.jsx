@@ -15,7 +15,7 @@ function App() {
     <Projects />
     <Contact />
     <footer className="bg-black text-white px-7 h-[30vh] ">
-      <div className="flex sm:justify-between sm:items-center py-6 max-sm:flex-col gap-3">
+      <div className="flex sm:justify-between sm:items-center py-6 max-sm:flex-col gap-3 px-3">
          <div>
            <h1 className="font-bold text-3xl">Abdullah Adeel</h1>
            <p className="text-base font-thin">A Frontend focused Web Developer building the Frontend of Websites and Web Applications</p>

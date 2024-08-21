@@ -6,7 +6,7 @@ export default function Item({src , desc , link}) {
         <div className=' rounded-lg shadow overflow-hidden '>
             <img className='w-full h-full' src={src} alt="Project img" />
         </div>
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 text-justify'>
             <p className='leading-7 text-slate-800'>{desc}</p>
             <div className='flex items-center gap-5'>
                <a href="https://www.github.com/SOms3Piol"

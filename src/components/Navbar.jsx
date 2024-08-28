@@ -19,10 +19,10 @@ function Navbar() {
                 <h1 className='text-xl font-bold max-md:text-base'>Abdullah Adeel</h1>
             </div>
             <div className='flex items-center gap-[92px] font-bold md:max-lg:font-semibold md:max-lg:text-xs md:max-lg:gap-[32px] max-md:hidden'>
-                <a className='hover:text-[#7843E9]' href="#">Home</a>
-                <a className='hover:text-[#7843E9]' href="#about">About</a>
-                <a className='hover:text-[#7843E9]' href="#project">Projects</a>
-                <a  className='hover:text-[#7843E9]' href="#contact">Contact</a>
+                <a className='hover:text-[#7843E9] transition ease-in-out duration-500' href="#">Home</a>
+                <a className='hover:text-[#7843E9] transition ease-in-out duration-500' href="#about">About</a>
+                <a className='hover:text-[#7843E9] transition ease-in-out duration-500' href="#project">Projects</a>
+                <a  className='hover:text-[#7843E9] transition ease-in-out duration-500' href="#contact">Contact</a>
             </div>
             <button 
              onClick={handleClick}

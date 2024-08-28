@@ -1,10 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 function Navbar() {
   const [isShown, setIsShown] = useState(false);
   const handleClick = () => {
     setIsShown(!isShown);
   }
+  useEffect(()=>{
+    window.addEventListener('resize',()=>{
+      if(window.innerWidth > 765)
+      setIsShown(false);
+    })
+    return () => window.removeEventListener('resize');
+  },[isShown])
+  
   return (
     <div className='sticky top-0 z-30'>
     <header className='w-[100vw]  py-2  px-7 bg-white shadow'>

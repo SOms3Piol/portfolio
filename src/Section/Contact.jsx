@@ -3,7 +3,7 @@ import Input from '../components/Input'
 
 export default function Contact() {
   return (
-    <section id='contact' className='bg-[url("https://www.rammaheshwari.com/assets/svg/common-bg.svg")] bg-center bg-no-repeat py-9 pt-19'>
+    <section id='contact' className='bg-[url("https://www.rammaheshwari.com/assets/svg/common-bg.svg")] bg-center bg-no-repeat py-[7.25rem]'>
         <div className='relative flex flex-col text-center uppercase items-center gap-4'>
             <h1 className='text-5xl font-bold uppercase'>Contact</h1>
             <div className=' h-[9px] rounded-lg w-[49px] bg-[#7843E9]'></div>

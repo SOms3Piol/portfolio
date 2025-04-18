@@ -5,13 +5,20 @@ function Navbar() {
   const handleClick = () => {
     setIsShown(!isShown);
   }
-  useEffect(()=>{
-    window.addEventListener('resize',()=>{
-      if(window.innerWidth > 765)
-      setIsShown(false);
-    })
-    return () => window.removeEventListener('resize');
-  },[isShown])
+ useEffect(() => {
+   
+    const handleResize = () => {
+      if (window.innerWidth > 765) {
+        setIsShown(false);
+      }
+    };
+
+    
+    window.addEventListener('resize', handleResize);
+
+    
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   
   return (
     <div className='sticky top-0 z-30'>
